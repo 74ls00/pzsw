@@ -1,6 +1,6 @@
 set prodir=G:\home\Documents\Projects\autoit\pz\src
 set outdir=G:\home\Documents\Projects\autoit\pz\src\build
-set autoitdir="T:\Program Files (x86)\AutoIt3\"
+set autoitdir="T:\Program Files (x86)\AutoIt3"
 
 set prun=pz404
 set pavt=pzavt2
@@ -22,4 +22,18 @@ rem start /d %autoitdir%\Aut2Exe Aut2exe.exe /in %prodir%\0.au3 /out %prodir%\bu
 
 rem ping -n 3 -w 1000 127.0.0.1 > nul
 rem move /Y %pavt%.exe %pavt%.lib
+
+rem gen
+rem start /d %autoitdir%\Aut2Exe Aut2exe.exe /in "%prodir%\res\MemoryDll Generator.au3" /out %prodir%\build\"MemoryDll Generator.exe"  /x86
+
+
+
+
+
+
+
+
+
+
+
 
